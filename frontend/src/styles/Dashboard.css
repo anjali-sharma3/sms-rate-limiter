@@ -1,0 +1,130 @@
+.dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.usage-stats {
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.usage-info p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.usage-info p strong {
+  font-weight: bold;
+}
+
+.stats {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stats .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.stats-table th,
+.stats-table td {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.stats-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.stats-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.stats-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.stats-table td.success {
+  color: green;
+}
+
+.stats-table td.failure {
+  color: red;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.sms-form {
+  margin-top: 20px;
+}
+
+.sms-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sms-form input,
+.sms-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.sms-form input[type="text"]::placeholder,
+.sms-form textarea::placeholder {
+  color: #888;
+}
+
+.sms-form button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sms-form button:hover {
+  background-color: #0056b3;
+}
+
+.feedback {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.feedback.success {
+  color: green;
+}
+
+.feedback.error {
+  color: red;
+}
